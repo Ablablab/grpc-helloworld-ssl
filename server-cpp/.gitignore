@@ -1,0 +1,48 @@
+.idea/
+src/.idea/
+lib/
+grpc/
+protobuf/
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+src/greeter_client
+src/greeter_server
+src/greeter_async_client
+src/greeter_async_client2
+src/greeter_async_server
+src/netagent
+src/netagent.grpc.pb.cc
+src/netagent.grpc.pb.h
+src/netagent.pb.cc
+src/netagent.pb.h
+
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
